@@ -204,8 +204,23 @@ nav li a:hover {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 19rem;
     row-gap: 4vh;
+    
   }
 }
+.button-alternative{
+  transition: .15s ease;
+}
+.button-alternative:hover{
+  transform: scale(1.25)
+}
+.button-dark{
+  transition: .15s ease;
+
+}
+.button-dark:hover{
+  transform: scale(1.25);
+}
+
 
 .location-sec {
   background-color: var(--color-primary);
